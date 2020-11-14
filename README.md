@@ -33,8 +33,6 @@
  
 ## Summary:
  
-   There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
- 
 ## Overall Data
  
 ![alt text](https://github.com/sebcampos/surfs_up/blob/master/resources/all_temp_histo.png?raw=True)
