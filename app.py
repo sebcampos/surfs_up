@@ -23,6 +23,14 @@ session = Session(engine)
 
 app = Flask(__name__)
 
+@app.after_request
+def treat_as_plain_text(response):
+    response.headers["content-type"] = "text/plain"
+    return response
+
+
+
+
 @app.route("/")
 def welcome():
     return (
